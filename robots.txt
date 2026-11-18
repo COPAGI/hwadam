@@ -1,0 +1,52 @@
+# robots.txt — 화담아동청소년발달센터
+# AI 검색·인용 봇을 포함해 모든 정상적인 수집을 허용합니다.
+# (센터 소개 정보가 AI 답변에서 정확히 인용되도록 열어 둡니다.)
+
+User-agent: *
+Allow: /
+
+# --- AI 검색·색인 계열 (차단하면 AI 답변 후보에서 제외됨) ---
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+# --- AI 학습 계열 (브랜드 인지도를 위해 허용) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+Sitemap: https://copagi.github.io/hwadam/sitemap.xml
